@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55AD7631F32E6DC006EE83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AD7621F32E6DC006EE83F /* main.m */; };
+		B55AD7661F32E6DC006EE83F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AD7651F32E6DC006EE83F /* AppDelegate.m */; };
+		B55AD7691F32E6DC006EE83F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AD7681F32E6DC006EE83F /* ViewController.m */; };
+		B55AD76C1F32E6DC006EE83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55AD76A1F32E6DC006EE83F /* Main.storyboard */; };
+		B55AD76E1F32E6DC006EE83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AD76D1F32E6DC006EE83F /* Assets.xcassets */; };
+		B55AD7711F32E6DC006EE83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55AD76F1F32E6DC006EE83F /* LaunchScreen.storyboard */; };
+		B55AD77C1F32E6DC006EE83F /* wzjcameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AD77B1F32E6DC006EE83F /* wzjcameraTests.m */; };
+		B55AD7871F32E6DC006EE83F /* wzjcameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AD7861F32E6DC006EE83F /* wzjcameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55AD7781F32E6DC006EE83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55AD7561F32E6DC006EE83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55AD75D1F32E6DC006EE83F;
+			remoteInfo = wzjcamera;
+		};
+		B55AD7831F32E6DC006EE83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55AD7561F32E6DC006EE83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55AD75D1F32E6DC006EE83F;
+			remoteInfo = wzjcamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B55AD75E1F32E6DC006EE83F /* wzjcamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wzjcamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55AD7621F32E6DC006EE83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55AD7641F32E6DC006EE83F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55AD7651F32E6DC006EE83F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55AD7671F32E6DC006EE83F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B55AD7681F32E6DC006EE83F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B55AD76B1F32E6DC006EE83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55AD76D1F32E6DC006EE83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55AD7701F32E6DC006EE83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55AD7721F32E6DC006EE83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55AD7771F32E6DC006EE83F /* wzjcameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wzjcameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55AD77B1F32E6DC006EE83F /* wzjcameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wzjcameraTests.m; sourceTree = "<group>"; };
+		B55AD77D1F32E6DC006EE83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55AD7821F32E6DC006EE83F /* wzjcameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wzjcameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55AD7861F32E6DC006EE83F /* wzjcameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wzjcameraUITests.m; sourceTree = "<group>"; };
+		B55AD7881F32E6DC006EE83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55AD75B1F32E6DC006EE83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD7741F32E6DC006EE83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD77F1F32E6DC006EE83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55AD7551F32E6DC006EE83F = {
+			isa = PBXGroup;
+			children = (
+				B55AD7601F32E6DC006EE83F /* wzjcamera */,
+				B55AD77A1F32E6DC006EE83F /* wzjcameraTests */,
+				B55AD7851F32E6DC006EE83F /* wzjcameraUITests */,
+				B55AD75F1F32E6DC006EE83F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55AD75F1F32E6DC006EE83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55AD75E1F32E6DC006EE83F /* wzjcamera.app */,
+				B55AD7771F32E6DC006EE83F /* wzjcameraTests.xctest */,
+				B55AD7821F32E6DC006EE83F /* wzjcameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55AD7601F32E6DC006EE83F /* wzjcamera */ = {
+			isa = PBXGroup;
+			children = (
+				B55AD7641F32E6DC006EE83F /* AppDelegate.h */,
+				B55AD7651F32E6DC006EE83F /* AppDelegate.m */,
+				B55AD7671F32E6DC006EE83F /* ViewController.h */,
+				B55AD7681F32E6DC006EE83F /* ViewController.m */,
+				B55AD76A1F32E6DC006EE83F /* Main.storyboard */,
+				B55AD76D1F32E6DC006EE83F /* Assets.xcassets */,
+				B55AD76F1F32E6DC006EE83F /* LaunchScreen.storyboard */,
+				B55AD7721F32E6DC006EE83F /* Info.plist */,
+				B55AD7611F32E6DC006EE83F /* Supporting Files */,
+			);
+			path = wzjcamera;
+			sourceTree = "<group>";
+		};
+		B55AD7611F32E6DC006EE83F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55AD7621F32E6DC006EE83F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55AD77A1F32E6DC006EE83F /* wzjcameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55AD77B1F32E6DC006EE83F /* wzjcameraTests.m */,
+				B55AD77D1F32E6DC006EE83F /* Info.plist */,
+			);
+			path = wzjcameraTests;
+			sourceTree = "<group>";
+		};
+		B55AD7851F32E6DC006EE83F /* wzjcameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55AD7861F32E6DC006EE83F /* wzjcameraUITests.m */,
+				B55AD7881F32E6DC006EE83F /* Info.plist */,
+			);
+			path = wzjcameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55AD75D1F32E6DC006EE83F /* wzjcamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AD78B1F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcamera" */;
+			buildPhases = (
+				B55AD75A1F32E6DC006EE83F /* Sources */,
+				B55AD75B1F32E6DC006EE83F /* Frameworks */,
+				B55AD75C1F32E6DC006EE83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wzjcamera;
+			productName = wzjcamera;
+			productReference = B55AD75E1F32E6DC006EE83F /* wzjcamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55AD7761F32E6DC006EE83F /* wzjcameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AD78E1F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcameraTests" */;
+			buildPhases = (
+				B55AD7731F32E6DC006EE83F /* Sources */,
+				B55AD7741F32E6DC006EE83F /* Frameworks */,
+				B55AD7751F32E6DC006EE83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55AD7791F32E6DC006EE83F /* PBXTargetDependency */,
+			);
+			name = wzjcameraTests;
+			productName = wzjcameraTests;
+			productReference = B55AD7771F32E6DC006EE83F /* wzjcameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55AD7811F32E6DC006EE83F /* wzjcameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AD7911F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcameraUITests" */;
+			buildPhases = (
+				B55AD77E1F32E6DC006EE83F /* Sources */,
+				B55AD77F1F32E6DC006EE83F /* Frameworks */,
+				B55AD7801F32E6DC006EE83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55AD7841F32E6DC006EE83F /* PBXTargetDependency */,
+			);
+			name = wzjcameraUITests;
+			productName = wzjcameraUITests;
+			productReference = B55AD7821F32E6DC006EE83F /* wzjcameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55AD7561F32E6DC006EE83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "魏志军";
+				TargetAttributes = {
+					B55AD75D1F32E6DC006EE83F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8DYK63463V;
+						ProvisioningStyle = Automatic;
+					};
+					B55AD7761F32E6DC006EE83F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8DYK63463V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B55AD75D1F32E6DC006EE83F;
+					};
+					B55AD7811F32E6DC006EE83F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8DYK63463V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B55AD75D1F32E6DC006EE83F;
+					};
+				};
+			};
+			buildConfigurationList = B55AD7591F32E6DC006EE83F /* Build configuration list for PBXProject "wzjcamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55AD7551F32E6DC006EE83F;
+			productRefGroup = B55AD75F1F32E6DC006EE83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55AD75D1F32E6DC006EE83F /* wzjcamera */,
+				B55AD7761F32E6DC006EE83F /* wzjcameraTests */,
+				B55AD7811F32E6DC006EE83F /* wzjcameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55AD75C1F32E6DC006EE83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AD7711F32E6DC006EE83F /* LaunchScreen.storyboard in Resources */,
+				B55AD76E1F32E6DC006EE83F /* Assets.xcassets in Resources */,
+				B55AD76C1F32E6DC006EE83F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD7751F32E6DC006EE83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD7801F32E6DC006EE83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55AD75A1F32E6DC006EE83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AD7691F32E6DC006EE83F /* ViewController.m in Sources */,
+				B55AD7661F32E6DC006EE83F /* AppDelegate.m in Sources */,
+				B55AD7631F32E6DC006EE83F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD7731F32E6DC006EE83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AD77C1F32E6DC006EE83F /* wzjcameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AD77E1F32E6DC006EE83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AD7871F32E6DC006EE83F /* wzjcameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55AD7791F32E6DC006EE83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55AD75D1F32E6DC006EE83F /* wzjcamera */;
+			targetProxy = B55AD7781F32E6DC006EE83F /* PBXContainerItemProxy */;
+		};
+		B55AD7841F32E6DC006EE83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55AD75D1F32E6DC006EE83F /* wzjcamera */;
+			targetProxy = B55AD7831F32E6DC006EE83F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55AD76A1F32E6DC006EE83F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55AD76B1F32E6DC006EE83F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55AD76F1F32E6DC006EE83F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55AD7701F32E6DC006EE83F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55AD7891F32E6DC006EE83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B55AD78A1F32E6DC006EE83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55AD78C1F32E6DC006EE83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B55AD78D1F32E6DC006EE83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B55AD78F1F32E6DC006EE83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wzjcamera.app/wzjcamera";
+			};
+			name = Debug;
+		};
+		B55AD7901F32E6DC006EE83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wzjcamera.app/wzjcamera";
+			};
+			name = Release;
+		};
+		B55AD7921F32E6DC006EE83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wzjcamera;
+			};
+			name = Debug;
+		};
+		B55AD7931F32E6DC006EE83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DYK63463V;
+				INFOPLIST_FILE = wzjcameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jun.wzjcameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wzjcamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55AD7591F32E6DC006EE83F /* Build configuration list for PBXProject "wzjcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AD7891F32E6DC006EE83F /* Debug */,
+				B55AD78A1F32E6DC006EE83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55AD78B1F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AD78C1F32E6DC006EE83F /* Debug */,
+				B55AD78D1F32E6DC006EE83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55AD78E1F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AD78F1F32E6DC006EE83F /* Debug */,
+				B55AD7901F32E6DC006EE83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55AD7911F32E6DC006EE83F /* Build configuration list for PBXNativeTarget "wzjcameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AD7921F32E6DC006EE83F /* Debug */,
+				B55AD7931F32E6DC006EE83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55AD7561F32E6DC006EE83F /* Project object */;
+}
